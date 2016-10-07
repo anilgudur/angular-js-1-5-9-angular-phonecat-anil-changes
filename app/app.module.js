@@ -7,4 +7,8 @@ angular.module('phonecatApp', [
     'core',
     'phoneDetail',
     'phoneList',
+    'fakeBackend',
+    'dashboard',
+    'login',
+    'ngStorage'
 ]);

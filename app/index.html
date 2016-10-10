@@ -44,6 +44,8 @@
 	<script src="app.animations.js"></script>
 	<script src="core/core.module.js"></script>
 	<script src="core/checkmark/checkmark.filter.js"></script>
+	<script src="core/menu/horizontal-menu/horizontal-menu.module.js"></script>
+	<script src="core/menu/horizontal-menu/horizontal-menu.component.js"></script>
 	<script src="core/user/user-menu-profile/user-menu-profile.module.js"></script>
 	<script src="core/user/user-menu-profile/user-menu-profile.component.js"></script>
 	<script src="core/user-authentication/user-authentication.module.js"></script>
@@ -79,10 +81,7 @@
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		    <ul class="nav navbar-nav">
-			<li class="active"><a href="#!/">Home <span class="sr-only">(current)</span></a></li>
-			<li><a href="#!/phones">Phones</a></li>
-		    </ul>
+		    <horizontal-menu></horizontal-menu>
 <!--		    <form class="navbar-form navbar-left">
 			<div class="form-group">
 			    <input type="text" class="form-control" placeholder="Search">
